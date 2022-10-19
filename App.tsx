@@ -15,7 +15,7 @@ const App = () => {
   return (
     <WebView
       source={{
-        uri: 'https://ok.ru/videoembed/2264106016388',
+        uri: 'https://facecast.net/v/ap0ihh',
       }}
     />
   );

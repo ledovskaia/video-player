@@ -1,21 +1,14 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * Generated with the TypeScript template
- * https://github.com/react-native-community/react-native-template-typescript
- *
- * @format
- */
-
 import React from 'react';
 import {WebView} from 'react-native-webview';
 
 const App = () => {
   return (
     <WebView
+      javaScriptEnabled={true}
+      scrollEnabled={false}
+      allowsFullscreenVideo={true}
       source={{
-        uri: 'https://facecast.net/v/ap0ihh',
+        uri: `https://ok.ru/videoembed/13180506`,
       }}
     />
   );
